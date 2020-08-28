@@ -5,6 +5,7 @@ The work conducted for a paper about system identification of ship manoeuvring i
 
 Project Organization
 ------------
+The project organization was taken from [cookiecutter-data-science](https://drivendata.github.io/cookiecutter-data-science/)
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
