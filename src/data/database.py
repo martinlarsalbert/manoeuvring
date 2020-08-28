@@ -1,5 +1,5 @@
 """
-This module contains some covenient methods to get roll decay results from the DB
+This module contains some covenient methods to get manoeuvring results from the DB
 """
 import pandas as pd
 
@@ -7,7 +7,6 @@ import data
 from sqlalchemy import create_engine
 from mdldb.mdl_db import MDLDataBase
 import signal_lab.mdl_to_evaluation
-import rolldecay
 import os
 
 sql_template = """
