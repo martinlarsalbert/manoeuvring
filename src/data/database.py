@@ -84,5 +84,6 @@ def load_run(db_run, load_temp=True, save_temp=True, save_as_example=False):
 
     df = signal_lab.mdl_to_evaluation.do_transforms(df=df_raw)
     df.rename(columns={'MA/Roll': 'phi'}, inplace=True)
+    df.rename(columns={'MA/Pitch': 'theta'}, inplace=True)
 
     return df
