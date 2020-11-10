@@ -37,3 +37,4 @@ import src.reporting.paper_writing as paper_writing
 
 from src.equations import equations
 from src.equations import symbols
+from rolldecayestimators.substitute_dynamic_symbols import lambdify
